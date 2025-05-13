@@ -2,14 +2,18 @@
 
 Local zsh development configuration
 
-### To use on a new machine:
+## Instructions
+
+1. Install Homebrew
+2. Install Oh My Zsh
+3. Install nvm (optional)
 
 ```zsh
 ❯ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 ❯ git clone --bare git@github.com:georgecwan/dotfiles.git $HOME/.dotfiles
 ❯ dotfiles config --local status.showUntrackedFiles no
 ❯ dotfiles checkout
-❯ dotfiles submodule init
+❯ dotfiles init
 ❯ dotfiles submodule update
 ```
 
