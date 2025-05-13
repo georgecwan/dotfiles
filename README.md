@@ -9,6 +9,8 @@ Local zsh development configuration
 ❯ git clone --bare git@github.com:georgecwan/dotfiles.git $HOME/.dotfiles
 ❯ dotfiles config --local status.showUntrackedFiles no
 ❯ dotfiles checkout
+❯ dotfiles submodule init
+❯ dotfiles submodule update
 ```
 
 Inspired by [this medium article](https://medium.com/@simontoth/best-way-to-manage-your-dotfiles-2c45bb280049)
