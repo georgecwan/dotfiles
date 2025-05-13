@@ -13,7 +13,7 @@ Local zsh development configuration
     ❯ git clone --bare git@github.com:georgecwan/dotfiles.git $HOME/.dotfiles
     ❯ dotfiles config --local status.showUntrackedFiles no
     ❯ dotfiles checkout
-    ❯ dotfiles init
+    ❯ dotfiles submodule init
     ❯ dotfiles submodule update
     ```
 
