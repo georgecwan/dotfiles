@@ -19,5 +19,6 @@ Local zsh development configuration
     ❯ source ~/zshrc/init.sh
     ❯ source ~/.zshrc
     ```
+6. Install the fonts: https://github.com/romkatv/powerlevel10k/blob/master/font.md
 
 Inspired by [this medium article](https://medium.com/@simontoth/best-way-to-manage-your-dotfiles-2c45bb280049)
