@@ -8,7 +8,6 @@ fi
 # Load the 'init-theme.sh'.
 source ~/zshrc/init-theme.sh
 source ~/zshrc/aliases.sh
-source ~/zshrc/nvm.sh
 source ~/zshrc/general.sh
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

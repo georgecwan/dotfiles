@@ -70,9 +70,12 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git
+    nvm
+    zsh-nvm
+    autoupdate
     tmux
-    zsh-autosuggestions
-    zsh-syntax-highlighting
+    zsh-bat
+    you-should-use
 )
 
 source $ZSH/oh-my-zsh.sh

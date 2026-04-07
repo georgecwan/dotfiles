@@ -2,14 +2,24 @@
 
 ZSH_CUSTOM="${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}"
 
-# Install zsh-autosuggestions
-if [ ! -d "$ZSH_CUSTOM/plugins/zsh-autosuggestions" ]; then
-  git clone --depth=1 https://github.com/zsh-users/zsh-autosuggestions "$ZSH_CUSTOM/plugins/zsh-autosuggestions"
+# Install you-should-use
+if [ ! -d "$ZSH_CUSTOM/plugins/you-should-use" ]; then
+  git clone --depth=1 https://github.com/MichaelAquilina/zsh-you-should-use.git "$ZSH_CUSTOM/plugins/you-should-use"
 fi
 
-# Install zsh-syntax-highlighting
-if [ ! -d "$ZSH_CUSTOM/plugins/zsh-syntax-highlighting" ]; then
-  git clone --depth=1 https://github.com/zsh-users/zsh-syntax-highlighting.git "$ZSH_CUSTOM/plugins/zsh-syntax-highlighting"
+# Install zsh-bat
+if [ ! -d "$ZSH_CUSTOM/plugins/zsh-bat" ]; then
+  git clone --depth=1 https://github.com/fdellwing/zsh-bat.git "$ZSH_CUSTOM/plugins/zsh-bat"
+fi
+
+# Install zsh-nvm
+if [ ! -d "$ZSH_CUSTOM/plugins/zsh-nvm" ]; then
+  git clone --depth=1 https://github.com/lukechilds/zsh-nvm.git "$ZSH_CUSTOM/plugins/zsh-nvm"
+fi
+
+# Install zsh-auto-update
+if [ ! -d "$ZSH_CUSTOM/plugins/autoupdate" ]; then
+  git clone --depth=1 https://github.com/TamCore/autoupdate-oh-my-zsh-plugins.git "$ZSH_CUSTOM/plugins/autoupdate"
 fi
 
 # Install powerlevel10k theme

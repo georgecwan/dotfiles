@@ -2,31 +2,36 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 tap "ngrok/ngrok"
 tap "twilio/brew"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
 # Cloudflare Tunnel client (formerly Argo Tunnel)
 brew "cloudflared"
 # Distributed revision control system
 brew "git"
 # Add indentation to LaTeX files
 brew "latexindent"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@3"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.12", link: false
+brew "python@3.12"
 # Terminal multiplexer
 brew "tmux"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
 # Menu bar tool to limit maximum charging percentage
 cask "aldente"
+cask "font-meslo-for-powerlevel10k"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 vscode "akamud.vscode-theme-onedark"
-vscode "anysphere.cursorpyright"
-vscode "anysphere.remote-containers"
 vscode "arcanis.vscode-zipfs"
 vscode "bierner.markdown-checkbox"
 vscode "bierner.markdown-emoji"
@@ -48,13 +53,18 @@ vscode "ibm.output-colorizer"
 vscode "james-yu.latex-workshop"
 vscode "kamikillerto.vscode-colorize"
 vscode "mrmlnc.vscode-scss"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-pyright.pyright"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
 vscode "ms-python.vscode-python-envs"
 vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
 vscode "ms-toolsai.jupyter-renderers"
 vscode "ms-toolsai.vscode-jupyter-cell-tags"
 vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
 vscode "ms-vscode-remote.remote-wsl"
