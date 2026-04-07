@@ -7,17 +7,8 @@ fi
 
 # Load the 'init-theme.sh'.
 source ~/zshrc/init-theme.sh
+source ~/zshrc/aliases.sh
+source ~/zshrc/nvm.sh
+source ~/zshrc/general.sh
 
-# Find all '.sh' files in ~/zshrc, exclude 'init.sh'.
-FILES_STR=$(find ~/zshrc -name '*.sh' -not -name 'init.sh')
-
-# `tr` is a find-and-replace utility.
-# Outer () will convert the output of $() to array.
-FILES=($(echo $FILES_STR | tr '\n' ' '))
-
-for FILE in $FILES; do
-    source $FILE
-done
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
