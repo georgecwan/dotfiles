@@ -6,10 +6,9 @@ Local zsh development configuration
 
 1. Install Homebrew
 2. Install Oh My Zsh
-3. Install Tmux
-4. Install nvm (optional)
-5. Install the fonts: https://github.com/romkatv/powerlevel10k/blob/master/font.md
-6. Clone:
+4. Install nvm (if Node is needed)
+5. Clone in `$HOME` directory
+6. Run
     ```zsh
     ❯ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
     ❯ git clone --bare https://github.com/georgecwan/dotfiles.git $HOME/.dotfiles
@@ -20,5 +19,7 @@ Local zsh development configuration
     ❯ source ~/zshrc/init.sh
     ❯ source ~/.zshrc
     ```
+
+To make changes in the future, simply use normal git commands using the `dotfiles` alias.
 
 Inspired by [this medium article](https://medium.com/@simontoth/best-way-to-manage-your-dotfiles-2c45bb280049)
