@@ -1,17 +1,26 @@
+# set global preferences for all 'brew install' commands
+cask_args appdir: '/Applications', fontdir: '/Library/Fonts', adopt: true
+
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "ngrok/ngrok"
 tap "twilio/brew"
+
+# Replacements of system equivalents
+brew 'bash'
+brew 'curl'
+brew 'git'
+brew 'less'
+brew 'rsync'
+brew 'vim'
+brew 'wget'
+brew 'zsh'
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Cloudflare Tunnel client (formerly Argo Tunnel)
 brew "cloudflared"
-# Distributed revision control system
-brew "git"
-# Add indentation to LaTeX files
-brew "latexindent"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Interpreted, interactive, object-oriented programming language
@@ -24,13 +33,25 @@ brew "uv"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# Menu bar tool to limit maximum charging percentage
-cask "aldente"
+
+# --------------------------------------------------------------
+# General Casks
+
+cask "adobe-acrobat-reader"
 cask "font-meslo-for-powerlevel10k"
-# Full TeX Live distribution without GUI applications
-cask "mactex-no-gui"
-# Reverse proxy, secure introspectable tunnels to localhost
+cask "google-chrome"
+cask "keyclu"
 cask "ngrok"
+cask "orbstack"
+cask "rectangle"
+cask "scroll-reverser"
+cask "sloth"
+cask "termius"
+cask "visual-studio-code"
+
+# --------------------------------------------------------------
+# VSCode extensions
+
 vscode "akamud.vscode-theme-onedark"
 vscode "arcanis.vscode-zipfs"
 vscode "bierner.markdown-checkbox"
@@ -80,3 +101,46 @@ vscode "stylelint.vscode-stylelint"
 vscode "vitest.explorer"
 vscode "vscode-icons-team.vscode-icons"
 vscode "yoavbls.pretty-ts-errors"
+
+# --------------------------------------------------------------
+# Personal casks
+
+cask "aldente"
+cask "appcleaner"
+cask "coconutBattery"
+cask "cursor"
+cask "discord"
+cask "dropbox"
+cask "epic-games"
+cask "firefox"
+cask "google-drive"
+cask "iina"
+cask "kobo"
+cask "latest"
+cask "league-of-legends"
+cask "logi-options+"
+cask "malwarebytes"
+cask "microsoft-auto-update"
+cask "microsoft-excel"
+cask "microsoft-powerpoint"
+cask "microsoft-word"
+cask "minecraft"
+cask "nvidia-geforce-now"
+cask "obsidian"
+cask "omnidisksweeper"
+cask "onedrive"
+cask "parsec"
+cask "protonvpn"
+cask "pycharm"
+cask "spotify"
+cask "steam"
+cask "the-unarchiver"
+cask "tor-browser"
+cask "transmission"
+cask "zoom"
+
+# Apps without casks:
+# - Amphetamine
+# - PDFgear
+# - Polarr
+# - XCode
