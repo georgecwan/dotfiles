@@ -1,8 +1,6 @@
 # set global preferences for all 'brew install' commands
 cask_args appdir: '/Applications', fontdir: '/Library/Fonts', adopt: true
 
-tap "homebrew/bundle"
-tap "homebrew/services"
 tap "ngrok/ngrok"
 tap "twilio/brew"
 
