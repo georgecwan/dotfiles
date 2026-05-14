@@ -3,6 +3,7 @@ cask_args appdir: '/Applications', fontdir: '/Library/Fonts', adopt: true
 
 tap "ngrok/ngrok"
 tap "twilio/brew"
+tap "buo/cask-upgrade"
 
 # Replacements of system equivalents
 brew 'bash'
