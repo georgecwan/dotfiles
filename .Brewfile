@@ -37,6 +37,7 @@ brew "zsh-syntax-highlighting"
 # General Casks
 
 cask "adobe-acrobat-reader"
+cask "bitwarden"
 cask "font-meslo-for-powerlevel10k"
 cask "google-chrome"
 cask "keyclu"
