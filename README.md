@@ -6,9 +6,8 @@ Local zsh development configuration
 
 1. Install Homebrew
 2. Install Oh My Zsh
-4. Install nvm (if Node is needed)
-5. Clone in `$HOME` directory
-6. Run
+3. Install nvm (if Node is needed)
+4. Run
     ```zsh
     ❯ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
     ❯ git clone --bare https://github.com/georgecwan/dotfiles.git $HOME/.dotfiles
